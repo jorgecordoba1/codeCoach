@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'KumbhSans';
+    src: url(fonts/KumbhSans-Medium.ttf),
+    url(fonts/KumbhSans-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    font-family: 'KumbhSans', sans-serif;
+}
+
+.container {
+    width: 340px;
+    
+    padding: 25px;
+    background-color: hsl(240, 5%, 91%);
+    border-radius: 10px;
+}
+
