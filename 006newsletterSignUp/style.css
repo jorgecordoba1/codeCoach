@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.principalContainer {
+    width: 340px;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.containerRight {
+    width: 100%;
+    height: 38%;
+}
+
+.containerLeft {
+    width: 100%;
+    height: 70%;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 22px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.parrafo {
+    margin-top: 25px;
+    margin-left: 22px;
+    padding-right: 20px;
+    line-height: 20px;
+}
+
+ul {
+    margin-top: 45px;
+    margin-left: 22px;
+    padding-right: 20px;
+}
+
+li {
+    background: url("./assets/images/icon-list.svg") no-repeat 0px 0px transparent;
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0px 0px 0px 40px;
+    height: 33px;
+}
+
+.mail {
+    margin-top: 25px;
+    margin-left: 22px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+input {
+    display: block;
+    border: 1px solid hsla(231, 7%, 60%, 0.416);
+    border-radius: 5px;
+    width: 90%;
+    height: 60px;
+    margin: 20px auto;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    height: 60px;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.secondContainer {
+    width: 340px;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.icon {
+    margin: 140px 0px 18px 22px;
+}
+
+.parrafoTwo {
+    margin-top: 25px;
+    margin-left: 22px;
+    padding-right: 20px;
+    line-height: 25px;
+}
+
+#buttonTwo {
+    position: absolute;
+    bottom: 30px;
+}
+
+
+@media screen and (min-width: 376px) {
+    
+    .principalContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 95vw;
+        height: 95vh;
+        padding: 30px;
+    }
+
+    .containerLeft {
+        background-color: white; 
+        height: 95vh;
+    }
+
+    .containerRight {
+        background-color: white; 
+        height: 95vh;
+    }
+
+    h1 {
+        margin-top:120px;
+        font-size: 84px;
+    }
+
+    .parrafo {
+        margin-top: 40px;
+        line-height: 36px;
+        font-size: 24px;
+    }
+
+    ul {
+        font-size: 24px;
+        margin-top: 60px;
+    }
+
+    .mail {
+        margin-top: 60px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    input {
+        width: 85%;
+        height: 90px;
+        margin: 30px 20px 20px 20px;
+        padding-left: 40px;
+        font-size: 24px;
+    }
+
+    button {
+        width: 85%;
+        height: 90px;
+        font-size: 24px;
+        margin: 30px 20px 20px 20px;
+    }
+
+
+
+} 
+
+
+
+

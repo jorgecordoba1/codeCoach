@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Karla";
+    src: url("/003Codecoach/003singlePriceGrid/fonts/Karla-Bold.ttf") format('true-font');
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Karla";
+    src: url("/003Codecoach/003singlePriceGrid/fonts/Karla-.ttf") format('true-font');
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "Karla";
+    src: url("/003Codecoach/003singlePriceGrid/fonts/Karla-Regular.ttf") format('true-font');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    background-color: hsl(218, 22%, 67%);
+    font-size: 12px;
+    font-family: "Karla", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    width: 310px;
+    height: 90vh;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.block1 {
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: white;
+    border-radius: 2% 2% 0 0;
+}
+
+.join {
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(179, 62%, 43%);
+    
+}
+
+.guarantee {
+    font-size: 14px;
+    color: hsl(71, 73%, 54%);
+}
+
+.access {
+    font-size: 12px;
+    line-height: 20px;
+    color: hsl(218, 22%, 67%);
+    
+}
+
+.block2 {
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+    background-color: hsl(179, 63%, 39%);
+}
+
+.subscription {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    width:60px;
+    font-size: 30px;
+}
+
+.letters {
+    color: hsla(216, 66%, 85%, 0.856);
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.block3 {
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 2% 2%;
+}
+
+.why {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.final {
+    color: #ffffffc2;
+    line-height: 18px;
+}
+
+
