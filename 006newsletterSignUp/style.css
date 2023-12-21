@@ -127,43 +127,95 @@ button {
 
 @media screen and (min-width: 376px) {
     
+    body{
+        background-color: hsl(234, 29%, 20%);
+    }
     .principalContainer {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
-        width: 95vw;
-        height: 95vh;
+        justify-content: space-around;
+        width: 70vw;
+        height: 65vh;
         padding: 30px;
+        
+    }
+
+    .secondContainer {
+        position: relative;
+        top: 25%;
+        width: 40vw;
+        height: 55vh;
+        background-color: white;
+        padding: 0px;
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+
+    .hidden {
+        display: none;
     }
 
     .containerLeft {
         background-color: white; 
-        height: 95vh;
+        height: 65vh;
+        border-radius: 40px 0 0 40px;
+        margin-top: 18%;
     }
 
     .containerRight {
         background-color: white; 
-        height: 95vh;
+        height: 65vh;
+        border-radius: 0 40px 40px 0;
+        margin-top: 18%;
+    }
+
+    .icon {
+        margin: 40px 0px 18px 52px;
+    }
+
+    .stay {
+        margin-top: 80px;
+        margin-left: 52px;
+        font-size: 60px;
     }
 
     h1 {
-        margin-top:120px;
-        font-size: 84px;
+        margin-top: 20px;
+        margin-left: 52px;
+        font-size: 60px;
     }
 
     .parrafo {
-        margin-top: 40px;
-        line-height: 36px;
-        font-size: 24px;
+        margin-top: 15px;
+        margin-left: 52px;
+        line-height: 30px;
+        font-size: 18px;
+
+    }
+
+    .parrafoTwo {
+        width: 70%;
+        margin-top: 25px;
+        margin-left: 52px;
+        margin-right: 52px;
+        padding-right: 0px;
+        line-height: 30px;
+        font-size: 18px;
     }
 
     ul {
-        font-size: 24px;
-        margin-top: 60px;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+    li {
+        margin-top: 5px;
+        
     }
 
     .mail {
-        margin-top: 60px;
+        margin-top: 20px;
+        margin-left: 52px;
         font-size: 20px;
         font-weight: 700;
     }
@@ -171,7 +223,7 @@ button {
     input {
         width: 85%;
         height: 90px;
-        margin: 30px 20px 20px 20px;
+        margin: 15px 20px 20px 52px;
         padding-left: 40px;
         font-size: 24px;
     }
@@ -179,12 +231,15 @@ button {
     button {
         width: 85%;
         height: 90px;
-        font-size: 24px;
-        margin: 30px 20px 20px 20px;
+        font-size: 20px;
+        margin: 15px 20px 20px 52px;
     }
 
-
-
+    #buttonTwo {
+        position: absolute;
+        bottom: 30px;
+        left: -10px;
+    }
 } 
 
 
