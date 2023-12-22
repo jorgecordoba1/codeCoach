@@ -33,17 +33,18 @@ body {
 .principalContainer {
     display: grid;
     width: 350px;
-    height: 450px;
+    height: 550px;
     margin: 70px auto 0;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px 25px 100px 25px;
-    padding: 25px;
+    padding: 25px 25px 0px;
 }
 
 .dateContainer {
     display: flex;
     justify-content: space-evenly;
     width: 300px;
+    margin-top: 30px;
 }
 
 .dayContainer, .monthContainer, .yearContainer {
@@ -73,4 +74,48 @@ input {
     margin-top: 5px;
     color: hsl(0, 0%, 8%);
 }
+
+.midContainer {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 0%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+}
+
+svg {
+    width: 45%;
+    height: 45%;
+    margin: 0 auto;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 2px solid hsl(0, 0%, 86%) 
+}
+
+.bigLetters {
+    
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+span {
+    color: hsl(259, 100%, 65%)
+}
+
+
+
 
