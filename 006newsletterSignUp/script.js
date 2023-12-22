@@ -13,6 +13,4 @@ function newPage() {
     secondContainer.classList.remove("hidden");
 }
 
-secondContainer.onclick() 
-
 
