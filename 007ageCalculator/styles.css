@@ -30,10 +30,25 @@ body {
 }
 
 .principalContainer {
+    display: grid;
     width: 350px;
     height: 450px;
-    margin: 100px auto 0;
+    margin: 70px auto 0;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px 25px 100px 25px;
     padding: 25px;
+}
+
+.dateContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.dayContainer, .monthContainer, .yearContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 70px;
+   
 }
