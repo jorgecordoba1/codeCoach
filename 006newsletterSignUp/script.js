@@ -13,4 +13,13 @@ function newPage() {
     secondContainer.classList.remove("hidden");
 }
 
+containerThanks.addEventListener("click", newChange)
+
+function newChange() {
+    console.log(message);
+    secondContainer += 1;
+
+}
+
+
 
