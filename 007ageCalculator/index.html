@@ -11,43 +11,41 @@
 <body>
   <div class="principalContainer">
 
+    <form>
+      <div class="dateContainer">
 
-    <div class="dateContainer">
+        <div class="dayContainer">
+          <p class="dayMonthYear">DAY</p>
+          <input id="day" type="text" placeholder="DD" required>
+        </div>
 
-      <div class="dayContainer">
-        <p class="dayMonthYear">DAY</p>
-        <input id="day" type="text" placeholder="DD">
+        <div class="monthContainer">
+         <p class="dayMonthYear">MONTH</p>
+         <input id="month" type="text" placeholder="MM" required>
+        </div>
+
+        <div class="yearContainer">
+          <p class="dayMonthYear">YEAR</p>
+          <input id="year" type="text" placeholder="YYYY" required>
+        </div>
+
       </div>
 
-      <div class="monthContainer">
-        <p class="dayMonthYear">MONTH</p>
-        <input id="month" type="text" placeholder="MM">
-      </div>
-
-      <div class="yearContainer">
-        <p class="dayMonthYear">YEAR</p>
-        <input id="year" type="text" placeholder="YYYY">
-      </div>
-
-    </div>
-
-
-    <div class="midContainer">
+      <button>
+        <svg xmlns="http://www.w3.org/2000/svg" 
+          width="46" 
+          height="44" 
+          viewBox="0 0 46 44">
+          <g fill="none" 
+            stroke="#FFF" 
+            stroke-width="3">
+            <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/>
+          </g>
+        </svg>
+      </button>
       <hr>
-      <div class="circle">
-      <svg xmlns="http://www.w3.org/2000/svg" 
-        width="46" 
-        height="44" 
-        viewBox="0 0 46 44">
-        <g fill="none" 
-          stroke="#FFF" 
-          stroke-width="3">
-          <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/>
-        </g>
-      </svg>
-    </div>
 
-    </div>
+    </form>
 
 
     <div class="lastContainer">
