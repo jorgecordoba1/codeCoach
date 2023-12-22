@@ -75,6 +75,11 @@ input {
     color: hsl(0, 0%, 8%);
 }
 
+input:active, input:focus {
+    border: 1px solid hsl(0, 0%, 8%);
+    outline: none;
+}
+
 .midContainer {
     position: relative;
 }
@@ -90,6 +95,10 @@ input {
     height: 70px;
     border-radius: 50%;
     background-color: hsl(259, 100%, 65%);
+}
+
+.circle:active {
+    background-color: hsl(0, 0%, 8%);
 }
 
 svg {
