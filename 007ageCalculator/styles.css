@@ -27,6 +27,7 @@
 
 body {
     background-color: hsl(0, 0%, 94%);
+    font-family: "Poppins", sans-serif;
 }
 
 .principalContainer {
@@ -49,6 +50,27 @@ body {
     display: flex;
     flex-direction: column;
     width: 100px;
-    height: 70px;
-   
+    height: 80px;
 }
+
+.dayMonthYear {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: hsl(0, 1%, 44%);
+    
+}
+
+input {
+    position: relative;
+    border: 1px solid hsl(0, 0%, 86%);
+    width: 90px;
+    height: 65px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 800;
+    padding-left: 15px;
+    margin-top: 5px;
+    color: hsl(0, 0%, 8%);
+}
+
