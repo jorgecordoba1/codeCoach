@@ -108,6 +108,12 @@ button {
     border-radius: 50%;
     background-color: hsl(259, 100%, 65%);
     border: none;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.button-right {
+    left: calc(50% + 100px);
+    transition: left 0s !important; /* Detener completamente la transición después de alcanzar la posición deseada */
 }
 
 button:active {
@@ -128,7 +134,7 @@ hr {
 }
 
 .lastContainer {
-margin-top: -40px;
+    margin-top: -40px;
 }
 
 .bigLetters {
