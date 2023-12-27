@@ -259,6 +259,10 @@ hr {
         line-height: 0px;
     }
 
+    li {
+        color: hsl(236, 13%, 42%);
+    }
+
     .partOne {
         padding-top: 30px;
         display: flex;
