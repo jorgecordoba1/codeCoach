@@ -81,6 +81,15 @@ ul {
     line-height: 48px;
 }
 
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color:hsl(5, 85%, 63%);
+}
+
+
 .section1, .section3 {
     margin-top: 20px;
     background-color: white;
@@ -133,6 +142,7 @@ button {
     font-weight: 700;
     font-size: 14px;
     border: none;
+    cursor: pointer;
 }
 
 button:hover {
@@ -154,6 +164,7 @@ h3 {
 
 h3:hover{
     color: hsl(35, 77%, 62%);
+    cursor: pointer;
 }
 
 .section2Blocks {
@@ -197,6 +208,7 @@ hr {
 
 .titulo:hover {
     color: hsl(5, 85%, 63%);
+    cursor: pointer;
 }
 
 .parrafo {
@@ -208,16 +220,43 @@ hr {
 @media (min-width: 376px) {
 
     .principalContainer {
-       
         width: 90vw;
         height: 100vh;
         padding: 60px;
     }
 
-    .menuButton {
+    header {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+
+    .logo {
+        align-self: center;
+    }
+
+    .menuButton, .menuClose {
         display: none;
-        width: 40px;
-        height: 20px;
+    }
+
+    .menuPop {
+        display: block;
+        position:inherit;
+        margin: 0;
+        width: 30vw;
+        height: 28.3px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30vw;
+        height: 28.3px;
+        margin-top: 0px;
+        padding: 0px;
+        font-size: 18px;
+        line-height: 0px;
     }
 
     .partOne {
@@ -264,10 +303,6 @@ hr {
         flex-direction: row;
         padding-top: 30px;
     }
-
-
-
-
 }
 
 
