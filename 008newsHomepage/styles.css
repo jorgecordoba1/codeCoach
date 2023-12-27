@@ -108,6 +108,10 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: black;
+}
+
 .new {
     font-size: 32px;
     font-weight: 700;
@@ -119,6 +123,10 @@ button {
 h3 {
     font-size: 19px;
     color: hsl(36, 100%, 99%);
+}
+
+h3:hover{
+    color: hsl(35, 77%, 62%);
 }
 
 .section2Blocks {
@@ -158,6 +166,10 @@ hr {
     font-size: 17px;
     color: black;
     font-weight: 800;
+}
+
+.titulo:hover {
+    color: hsl(5, 85%, 63%);
 }
 
 .parrafo {
