@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: white;
+}
+
+.principalContainer {
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid rgba(53, 53, 53, 0.179);
+    padding: 20px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+#notifications {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.notificationsContainer {
+    display: flex;
+}
+
+.number {
+    width: 20px;
+    height: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 20%;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 18px ;
+}
+
+#read {
+    color: hsl(219, 12%, 42%)
+}
+
+.messagesContainer{ 
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid rgba(53, 53, 53, 0.179);
+    border-radius: 10px;
+    /*background-color: hsl(205, 33%, 90%);*/
+}
+
+.messagePhoto {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 34px;
+    height: 34px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.messageText {
+    color: hsl(219, 12%, 42%);
+    padding-right: 40px;
+}
+
+#name {
+    color: black;
+}
+
+#post {
+    color: hsl(219, 12%, 42%);
+}
+
+#chess {
+    color: hsl(219, 85%, 26%);
+}
+
+.time {
+    margin-top: 3px;
+    color: hsl(219, 14%, 63%);
+}
+
+.messageTextRizky {
+    border: 1px solid rgba(0, 0, 0, 0.109);
+    border-radius: 5px;
+    padding: 10px;
+    width: 220px;
+    margin-top: 10px;
+    color: hsl(219, 12%, 42%);
+}
+
+#you {
+    width: 34px;
+    height: 34px;
+}
