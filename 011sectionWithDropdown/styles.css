@@ -11,6 +11,73 @@
 
 body {
     font-family: "Epilogue", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.principalContainer {
+    margin: 0 auto;
+    width: 375px;
+}
+
+.principalImage {
+    width: 375px;
+}
+
+.rightContainer {
+    margin-top: 20px;
+    width: 375px;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 375px;
+    padding: 20px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;;
+}
+
+p {
+    margin-top: 16px;
+    color: hsl(0, 0%, 41%);
+    text-align: center;
+    line-height: 24px;
+}
+
+.learnButton {
+    margin-top: 20px;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    padding: 20px;
+}
+
+.logos {
+    width: 60px;
+    object-fit:contain;
+    
+}
+
+
 
