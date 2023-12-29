@@ -17,7 +17,6 @@ body {
 .principalContainer {
     width: 350px;
     margin: 0 auto;
-    border: 1px solid rgba(53, 53, 53, 0.179);
     padding: 20px;
 }
 
@@ -49,8 +48,9 @@ body {
     line-height: 18px ;
 }
 
-#read {
-    color: hsl(219, 12%, 42%)
+.read {
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
 }
 
 .messagesContainer{ 
@@ -62,9 +62,15 @@ body {
 .message {
     display: flex;
     margin-bottom: 20px;
-    border: 1px solid rgba(53, 53, 53, 0.179);
-    border-radius: 10px;
-    /*background-color: hsl(205, 33%, 90%);*/
+    border-radius: 10px; 
+    background-color: hsl(210, 60%, 98%); 
+    cursor: pointer;
+    align-items: center;
+}
+
+.messageReaded {
+    background-color: white;
+    align-items: center;
 }
 
 .messagePhoto {
@@ -98,6 +104,17 @@ body {
     color: hsl(219, 85%, 26%);
 }
 
+.unreadPoint {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    margin-left: 7px;
+    margin-bottom: 1px;
+    align-self: center;
+}
+
 .time {
     margin-top: 3px;
     color: hsl(219, 14%, 63%);
@@ -115,4 +132,23 @@ body {
 #you {
     width: 34px;
     height: 34px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+@media (min-width: 376px) {
+
+    body {
+        display: flex;
+        background-color: hsla(211, 68%, 94%, 0.426);
+    
+    }
+    .principalContainer {
+        width: 60vw;
+        margin: 20vh auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
 }
