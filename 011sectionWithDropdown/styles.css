@@ -92,8 +92,10 @@ li {
     background-size: 20px;
 }
 
-li:hover {
-    color:hsl(5, 85%, 63%);
+#arrowDown {
+    margin-top: -10px;
+    position: relative;
+    top: -2px;
 }
 
 .leftContainer {
