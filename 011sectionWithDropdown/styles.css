@@ -14,38 +14,33 @@ body {
     font-size: 16px;
 }
 
-header {
+header, .principalContainer, .rightContainer, .leftContainer, .footer {
+    width: 375px;
+}
+
+header, .footer {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
-
-
-.principalContainer {
-    margin: 0 auto;
-    width: 375px;
-}
-
-.principalImage {
-    width: 375px;
-}
-
-.rightContainer {
+.rightContainer, .leftContainer {
     margin-top: 20px;
-    width: 375px;
+}
+
+header, .principalContainer{
+    margin: 20px auto 0;
 }
 
 .leftContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    width: 375px;
-    padding: 20px;
     align-items: center;
+    padding: 20px;
 }
 
 h1 {
-    font-size: 32px;;
+    font-size: 32px;
 }
 
 p {
@@ -66,18 +61,15 @@ p {
     border: none;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
+.principalImage, .logos {
     width: 375px;
-    padding: 20px;
 }
 
 .logos {
-    width: 60px;
-    object-fit:contain;
-    
+    object-fit: contain;
 }
+
+
 
 
 
