@@ -68,23 +68,28 @@ ul {
 li {
     list-style-type: none;
     margin-top: 5px;
-    padding: 0px 0px 0px 36px;
+    padding: 0px 0px 0px 40px;
 }
 
 #one {
-    background: url("./images/icon-todo.svg") no-repeat 7px 14px transparent;
+    background: url("./images/icon-todo.svg") no-repeat 7px 11px transparent;
+    background-size: 20px; /*cambia el tamaño de los iconos del ul list */
 }
 
 #two {
-    background: url("./images/icon-calendar.svg") no-repeat 7px 14px transparent;
+    background: url("./images/icon-calendar.svg") no-repeat 7px 11px transparent;
+    background-size: 20px;
 }
 
 #three {
-    background: url("./images/icon-reminders.svg") no-repeat 7px 14px transparent;
+    background: url("./images/icon-reminders.svg") no-repeat 7px 11px transparent;
+    background-size: 20px;
 }
 
+
 #four {
-    background: url("./images/icon-planning.svg") no-repeat 7px 14px transparent;
+    background: url("./images/icon-planning.svg") no-repeat 7px 12px transparent;
+    background-size: 20px;
 }
 
 li:hover {
