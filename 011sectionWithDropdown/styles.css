@@ -14,14 +14,22 @@ body {
     font-size: 16px;
 }
 
-header, .principalContainer, .rightContainer, .leftContainer, .footer {
+header, .principalContainer, .rightContainer, .leftContainer {
     width: 375px;
 }
 
-header, .footer {
+header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding: 0px;
+    margin: 30px auto 0;
 }
 
 .rightContainer, .leftContainer {
@@ -117,12 +125,12 @@ p {
 }
 
 .learnButton {
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: black;
     font-size: 16px;
     color: white;
-    width: 120px;
-    height: 40px;
+    width: 130px;
+    height: 46px;
     border-radius: 10px;
     border: none;
 }
@@ -133,6 +141,7 @@ p {
 
 .logos {
     object-fit: contain;
+    width: 60px;
 }
 
 
