@@ -135,6 +135,15 @@ p {
     border: none;
 }
 
+.learnButton:hover {
+    background-color: hsl(0, 0%, 98%);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+
+
 .principalImage, .logos {
     width: 375px;
 }
