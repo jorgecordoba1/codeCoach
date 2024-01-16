@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principalContainer {
+    width: 350px;
+    height: 1400px;
+    background-color: darkorchid;
+}
+
+@media (min-width: 376px) {
+    
+    #principalContainer {
+        width: 80vw;
+        height: 64vh;
+    }
+
+}
