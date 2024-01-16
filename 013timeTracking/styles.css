@@ -67,6 +67,54 @@ section {
     z-index: -1;
 }
 
+#workContainer::before {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(./images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(0% - 9px); 
+}
+
+#playContainer::before {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(./images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(0% - 9px); 
+}
+
+#studyContainer::before {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(./images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(0% - 9px); 
+}
+
+#exerciseContainer::before {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(./images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(0% - 9px); 
+}
+
+#socialContainer::before {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(./images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(0% - 9px); 
+}
+
+#selfCareContainer::before {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(./images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(0% - 9px); 
+}
+
 @media (min-width: 376px) {
     
     #principalContainer {
