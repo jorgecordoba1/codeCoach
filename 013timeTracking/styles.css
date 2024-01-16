@@ -135,6 +135,25 @@ section {
     letter-spacing: 2px;
 }
 
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+
+.hrs {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.lastweek {
+    font-size: 16px;
+}
+
 @media (min-width: 376px) {
     
     #principalContainer {
@@ -168,4 +187,19 @@ section {
         border-radius: 15px;
     }
 
+    .time {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+
+    .hrs {
+        font-size: 46px;
+    }
+
+    .lastweek {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 300;
+    }
 }
