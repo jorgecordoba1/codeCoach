@@ -51,6 +51,7 @@ body {
 }
 
 #pictureAndTexts {
+    margin-top: 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,7 +85,7 @@ body {
 
 #frequencies {
     position: relative;
-    bottom: -50px;
+    bottom: -44px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -232,6 +233,7 @@ img {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-top: -15px;
     }
 
     #profilePicture {
@@ -254,7 +256,7 @@ img {
     #frequencies {
         flex-direction: column;
         align-items: flex-start;
-        bottom: -105px;
+        bottom: -120px;
     }
 
     .frequency{
