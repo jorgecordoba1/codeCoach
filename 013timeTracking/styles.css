@@ -89,12 +89,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center; 
 }
 
-.frequency{
+.frequency {
     color: hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+
+.frequency:hover {
+    color: white;
 }
 
 section {
@@ -123,6 +127,10 @@ section {
     background-color: red;
     border-radius: 20px;
     z-index: -1;
+}
+
+.smallContainers:hover {
+    background-color: hsl(235, 45%, 41%);
 }
 
 #workContainer::before {
@@ -183,6 +191,11 @@ section {
 
 img {
     height: 6px;
+    cursor: pointer;
+}
+
+img:hover {
+    filter: brightness(200%);
 }
 
 .time {
