@@ -177,6 +177,7 @@ section {
     justify-content: space-between;
     align-items: center;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 img {
@@ -261,6 +262,15 @@ img {
         margin-top: 14px;
     }
 
+    #sections {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+    }
 
     .smallContainers {
         width: 230px;
@@ -271,6 +281,10 @@ img {
 
     .smallContainers::before {
         border-radius: 15px;
+    }
+
+    .titlesAndPoints {
+        margin-top: 4px;
     }
 
     img {
