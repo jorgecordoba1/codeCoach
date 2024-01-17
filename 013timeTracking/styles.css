@@ -28,10 +28,6 @@ body {
 }
 
 #profileContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     padding: 24px;
     position: relative;
     width: 340px;
@@ -54,18 +50,25 @@ body {
     z-index: -1;
 }
 
+#pictureAndTexts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #profilePicture {
     width: 70px;
     height: 70px;
     border: 2px solid white;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
-
 #profileTexts {
+    position: relative;
     display: flex;
     flex-direction: column;
-    color: white
+    color: white;
 }
 
 #report {
@@ -73,9 +76,24 @@ body {
 }
 
 #name {
+    width: 200px;
     margin-top: 4px;
     font-size: 26px;
     font-weight: 300;
+}
+
+#frequencies {
+    position: relative;
+    bottom: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.frequency{
+    color: hsl(235, 45%, 61%);
 }
 
 section {
@@ -209,6 +227,20 @@ img {
         bottom: -142px;
     }
 
+    #pictureAndTexts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #profilePicture {
+        margin-top: 20px;
+    }
+
+    #profileTexts {
+        bottom: -40px;
+    }
+
     #report {
         font-size: 12px;
     }
@@ -217,6 +249,18 @@ img {
         margin-top: 6px;
         font-size: 30px;
     }
+
+    #frequencies {
+        flex-direction: column;
+        align-items: flex-start;
+        bottom: -105px;
+    }
+
+    .frequency{
+        bottom: -130px;
+        margin-top: 14px;
+    }
+
 
     .smallContainers {
         width: 230px;
