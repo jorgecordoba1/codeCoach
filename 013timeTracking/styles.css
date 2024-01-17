@@ -28,6 +28,11 @@ body {
 }
 
 #profileContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
     position: relative;
     width: 340px;
     height: 130px;
@@ -49,6 +54,30 @@ body {
     z-index: -1;
 }
 
+#profilePicture {
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+#profileTexts {
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+
+#report {
+    color: hsl(236, 100%, 87%);
+}
+
+#name {
+    margin-top: 4px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -61,7 +90,7 @@ section {
     margin-top: 60px;
     padding:20px;
     color: white;
-    background-color: hsl(235, 45%, 61%);
+    background-color: hsl(235, 46%, 20%);
     border-radius: 20px;
 }
 
@@ -128,11 +157,12 @@ section {
 .titlesAndPoints {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-weight: 500;
 }
 
-.points {
-    letter-spacing: 2px;
+img {
+    height: 6px;
 }
 
 .time {
@@ -152,6 +182,7 @@ section {
 
 .lastweek {
     font-size: 16px;
+    color: hsl(236, 100%, 87%);
 }
 
 @media (min-width: 376px) {
@@ -164,6 +195,8 @@ section {
     }
 
     #profileContainer {
+        flex-direction: column;
+        align-items: flex-start;
         margin-top: 10px;
         width: 230px;
         height: 300px;
@@ -176,6 +209,15 @@ section {
         bottom: -142px;
     }
 
+    #report {
+        font-size: 12px;
+    }
+
+    #name {
+        margin-top: 6px;
+        font-size: 30px;
+    }
+
     .smallContainers {
         width: 230px;
         height: 170px;
@@ -185,6 +227,10 @@ section {
 
     .smallContainers::before {
         border-radius: 15px;
+    }
+
+    img {
+        height: 5px;
     }
 
     .time {
