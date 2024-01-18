@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Fraunces";
+    src: url(./fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url(./fonts/Barlow/Barlow-Medium.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 5219px;
+    background-color: rgb(93, 93, 93);
+}
+
+#headerContainer {
+    
+    width: 100vw;
+    height: 500px;
+    background-image: url(./images/mobile/image-header.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+    padding: 30px;
+}
+
+#logoAndMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 28vw;
+}
+
+nav {
+    display: none;
+}
+
+#textAndArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    letter-spacing: 8px;
+    margin-top: 70px;
+}
+
+#arrow {
+    width: 29px;
+    margin-top: 68px;
+}
+
+@media (min-width: 376px) {
+
+    body {
+        height: 4174px;
+    }
+    
+    #headerContainer {
+        background-image: url(./images/desktop/image-header.jpg); 
+        height: 20vh;
+        padding: 50px;
+    }
+
+    #logoAndMenu {
+        height: 22px;
+    }
+
+    #logo {
+        width: 14vw;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 32vw;
+        padding-right: 30px;
+        list-style: none;
+        font-family: Barlow;
+    }
+
+    li {
+        font-size: 1.5vw;
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+    }
+
+    li:hover {
+        font-size: 1.2vw;
+        color: black;
+        background-color: white;
+        border: 22px solid white;
+        background-position: center;
+        border-radius: 30px;
+        font-family: "Fraunces", sans-serif;
+        font-weight: 700;
+        margin-top: -22px
+        
+    }
+
+    h1 {
+        font-size: 4vw;
+        letter-spacing: 12px;
+        margin-top: 130px;
+    }
+
+    #arrow {
+        width: 36px;
+        margin-top: 100px;
+    }
+}
