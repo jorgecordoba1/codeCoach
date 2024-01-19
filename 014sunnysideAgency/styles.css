@@ -71,6 +71,79 @@ h1 {
     margin-top: 68px;
 }
 
+#transfromAndEgg {
+    display: flex;
+    flex-direction: column;
+}
+
+#egg, #transform {
+    width: 100vw;
+}
+
+#egg {
+    height: 340px;
+    background-image: url(./images/mobile/image-transform.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+}
+
+#transform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 460px;
+    background-color: white;
+    padding: 34px;
+    text-align: center;
+}
+
+#transformTitle {
+    font-family: "fraunces", sans-serif;
+    font-size: 8vw;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+#transformParaghraph {
+    font-family: "Barlow", sans-serif;
+    font-size: 4.6vw;
+    font-weight: 500;
+    color: hsl(232, 10%, 55%);
+    line-height: 26px;
+}
+
+#transformMore {
+    font-family: "fraunces", sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+#yellowLine {
+    position: relative;
+    top: -77px;
+    width: 35vw;
+    height: 10px;
+    background-color: hsla(51, 100%, 49%, 0.322);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 376px) {
 
     body {
@@ -125,7 +198,6 @@ h1 {
         font-family: "Fraunces", sans-serif;
         font-weight: 700;
         margin-top: -22px
-        
     }
 
     h1 {
@@ -138,4 +210,52 @@ h1 {
         width: 36px;
         margin-top: 100px;
     }
+
+    #transfromAndEgg {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #egg, #transform {
+        width: 50vw;
+        height: 600px;
+    }
+    
+    #egg {
+        background-image: url(./images/desktop/image-transform.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #transform {
+        padding: 94px;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    #transformTitle {
+        font-size: 3vw;
+        padding-right: 30px;
+        letter-spacing: 1.5px;
+    }
+  
+    #transformParaghraph {
+        font-size: 1.5vw;
+        line-height: 2.4vw;
+        margin-top: 30px;
+    }
+
+    #transformMore {
+        font-size: 1.4vw;
+        margin-top: 40px;
+    }
+
+    #yellowLine {
+        top: -50px;
+        left: -6px;
+        width: 11.4vw;
+        height: 10px;
+        border-radius: 10px;
+    }
+        
 }
