@@ -71,12 +71,12 @@ h1 {
     margin-top: 68px;
 }
 
-#transfromAndEgg {
+#transformAndEgg, #standAndCup, #designAndPhoto {
     display: flex;
     flex-direction: column;
 }
 
-#egg, #transform {
+#egg, #transform, #cup, #stand, #design, #photo {
     width: 100vw;
 }
 
@@ -87,7 +87,28 @@ h1 {
     background-size: cover;
 }
 
-#transform {
+#cup {
+    height: 340px;
+    background-image: url(./images/mobile/image-stand-out.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+}
+
+#design {
+    height: 340px;
+    background-image: url(./images/mobile/image-graphic-design.jpg);
+    background-position: 0% 0%;
+    background-size: cover;
+}
+
+#photo {
+    height: 340px;
+    background-image: url(./images/mobile/image-photography.jpg);
+    background-position: 0% 0%;
+    background-size: cover;
+}
+
+#transform, #stand {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,22 +119,51 @@ h1 {
     text-align: center;
 }
 
-#transformTitle {
+#design, #photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+    background-color: white;
+    padding: 34px;
+    text-align: center;
+}
+
+#transformTitle, #standTitle {
     font-family: "fraunces", sans-serif;
     font-size: 8vw;
     font-weight: 900;
     margin-top: 30px;
 }
 
-#transformParaghraph {
+#designTitle, #photoTitle {
+    font-family: "fraunces", sans-serif;
+    font-size: 7vw;
+    font-weight: 900;
+    margin-top: 360px;
+    color: rgba(0, 0, 0, 0.673);
+}
+
+#transformParaghraph, #standParaghraph {
     font-family: "Barlow", sans-serif;
     font-size: 4.6vw;
     font-weight: 500;
-    color: hsl(232, 10%, 55%);
+    color: rgba(0, 0, 0, 0.673);
     line-height: 26px;
 }
 
-#transformMore {
+#designParagraph, #photoParagraph {
+    font-family: "Barlow", sans-serif;
+    font-size: 3.9vw;
+    font-weight: 500;
+    color: hsl(212, 27%, 19%);
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#transformMore, #standMore {
     font-family: "fraunces", sans-serif;
     font-size: 4vw;
     font-weight: 700;
@@ -121,16 +171,127 @@ h1 {
     letter-spacing: 1px;
 }
 
-#yellowLine {
+#yellowLine, #pinkLine {
     position: relative;
-    top: -77px;
+    top: -48px;
     width: 35vw;
     height: 10px;
-    background-color: hsla(51, 100%, 49%, 0.322);
+    background-color: hsla(51, 100%, 49%, 0.32);
     border-radius: 10px;
 }
 
+#pinkLine {
+    background-color: hsla(7, 99%, 70%, 0.321);
+}
 
+#client {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    padding: 0px;
+}
+
+#clientTitle {
+    width: 100vw;
+    font-family: "fraunces", sans-serif;
+    font-size: 3.5vw;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: rgba(0, 0, 0, 0.401);
+    text-align: center;
+}
+
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 360px;
+    background-color: white;
+}
+
+#emilyPhoto, #thomasPhoto, #jenniePhoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.testimonialParagraph {
+    font-family: "Barlow", sans-serif;
+    font-size: 4.5vw;
+    font-weight: 500;
+    color: hsl(212, 27%, 19%);
+    line-height: 26px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.testimonialName {
+    font-family: "fraunces", sans-serif;
+    font-size: 3.5vw;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    margin-top: -20px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.testimonialPosition {
+    color: rgba(0, 0, 0, 0.462);
+    font-size: 3vw;
+}
+
+#fourPicturesContainer {
+    width: 100vw;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+#milkAndOrange {
+    display: flex;
+    flex-direction: row;
+}
+
+#coneAndSugar {
+    display: flex;
+    flex-direction: row;
+}
+
+.fourPictures {
+    width: 50vw;
+    object-fit: cover;
+}
+
+#finalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 444px;
+    background: hsl(168, 34%, 41%);
+}
+
+svg {
+    margin-top: 20vw;
+    align-self: center;
+}
 
 
 
@@ -211,51 +372,111 @@ h1 {
         margin-top: 100px;
     }
 
-    #transfromAndEgg {
+    #transformAndEgg {
         display: flex;
         flex-direction: row-reverse;
     }
 
-    #egg, #transform {
+    #standAndCup {
+        display: flex;
+        flex-direction: row; 
+    }
+
+    #designAndPhoto {
+        display: flex;
+        flex-direction: row; 
+    }
+
+    #egg, #transform, #cup, #stand, #design, #photo {
         width: 50vw;
         height: 600px;
     }
-    
+
     #egg {
         background-image: url(./images/desktop/image-transform.jpg);
         background-position: center;
         background-size: cover;
     }
 
-    #transform {
+    #cup {
+        background-image: url(./images/desktop/image-stand-out.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #design {
+        background-image: url(./images/desktop/image-graphic-design.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #photo {
+        background-image: url(./images/desktop/image-photography.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #transform, #stand {
         padding: 94px;
         text-align: left;
         align-items: flex-start;
     }
 
-    #transformTitle {
+    #design, #photo{
+        padding: 142px;
+        align-items: center;
+    }
+
+    #transformTitle, #standTitle {
         font-size: 3vw;
         padding-right: 30px;
         letter-spacing: 1.5px;
     }
+
+    #designTitle, #photoTitle {
+        font-size: 2.5vw;
+        padding-right: 0px;
+        letter-spacing: 1.5px;
+        margin-top: 240px;
+    }
   
-    #transformParaghraph {
+    #transformParaghraph, #standParaghraph {
         font-size: 1.5vw;
         line-height: 2.4vw;
         margin-top: 30px;
     }
 
-    #transformMore {
+    #designParagraph, #photoParagraph {
+        font-size: 1.4vw;
+        line-height: 2.4vw;
+        margin-top: 30px;
+    }
+
+    #transformMore, #standMore {
         font-size: 1.4vw;
         margin-top: 40px;
     }
 
-    #yellowLine {
+    #yellowLine, #pinkLine {
         top: -50px;
         left: -6px;
         width: 11.4vw;
         height: 10px;
         border-radius: 10px;
+    }
+
+    #client {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 160px;
+        background-color: white;
+        padding: 0px;
+    }
+
+    #clientTitle {
+        font-size: 1.2vw;
+        color: rgba(0, 0, 0, 0.1);
     }
         
 }
