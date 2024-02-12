@@ -14,6 +14,7 @@ function cargarDatos() {
 let daily = document.getElementById("daily");
 let weekly = document.getElementById("weekly");
 let monthly = document.getElementById("monthly");
+let newly = document.getElementById("newly");
 
 daily.addEventListener("click", function() {
   document.getElementById("workHrs").innerText = "5hrs";
